@@ -25,15 +25,15 @@
 @keyframes popGlow {
   0% {
     transform: scale(1);
-    box-shadow: 0 4px 15px rgba(199, 168, 107, 0.25); /* soft glow */
+    box-shadow: 0 4px 15px rgba(199, 168, 107, 0.25); 
   }
   50% {
     transform: scale(1.04);
-    box-shadow: 0 8px 25px rgba(199, 168, 107, 0.6); /* adjustable glow */
+    box-shadow: 0 8px 25px rgba(199, 168, 107, 0.6); 
   }
   100% {
     transform: scale(1);
-    box-shadow: 0 4px 15px rgba(199, 168, 107, 0.25); /* soft glow */
+    box-shadow: 0 4px 15px rgba(199, 168, 107, 0.25); 
   }
 }
 .amenities-swiper {
@@ -55,7 +55,7 @@
 }
 
 .swiper-pagination-bullet {
-  background: #c7a86b !important; /* luxury gold */
+  background: #c7a86b !important; 
   opacity: 1 !important;
 }
 

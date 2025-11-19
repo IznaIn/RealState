@@ -1,7 +1,7 @@
 /* Contact Card Container */
 .contact-card {
-  background: rgba(255, 255, 255, 0.08); /* Light glass */
-  backdrop-filter: blur(12px); /* Frosted glass */
+  background: rgba(255, 255, 255, 0.08); 
+  backdrop-filter: blur(12px); 
   border-radius: 15px;
   padding: 25px;
   border: 1px solid rgba(255, 255, 255, 0.2);
