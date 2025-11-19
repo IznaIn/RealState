@@ -1,0 +1,59 @@
+/* Contact Card Container */
+.contact-card {
+  background: rgba(255, 255, 255, 0.08); /* Light glass */
+  backdrop-filter: blur(12px); /* Frosted glass */
+  border-radius: 15px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
+
+/* Input Fields */
+.contact-input {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.contact-input::placeholder {
+  color: #e5e5e5;
+}
+
+.contact-input:focus {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: #c7a86b; /* Luxury gold border */
+  color: black;
+  box-shadow: 0 0 10px rgba(199, 168, 107, 0.5);
+}
+
+/* Luxury Button */
+.contact-btn {
+  background: linear-gradient(45deg, #c7a86b, #e9c886);
+  border: none;
+  padding: 12px;
+  color: black;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(231, 206, 150, 0.7);
+}
+
+.heading {
+  color: #c7a86b; /* Luxury gold */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+@media (max-width: 750px) {
+  .contact-card {
+    padding: 18px !important;
+  }
+
+  #contact h2 {
+    font-size: 1.7rem;
+  }
+}
